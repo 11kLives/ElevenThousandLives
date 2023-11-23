@@ -32,9 +32,10 @@ p {
 }
 
 .non-header {
-    position: absolute;
+    position: relative;
     z-index: 2;
-
+    text-align: center;
+    color: white;
 }
 
 #header {
@@ -123,3 +124,4 @@ a:hover {
     border: transparent;
     font-size: medium;
 }
+
